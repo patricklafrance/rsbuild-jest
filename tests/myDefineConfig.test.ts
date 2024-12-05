@@ -1,4 +1,4 @@
-import { myDefineConfig } from "../src/myDefineConfig";
+import { myDefineConfig } from "../src/myDefineConfig.ts";
 
 test("my test", () => {
     const config = myDefineConfig();

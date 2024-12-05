@@ -1,5 +1,7 @@
 # rsbuild-jest
 
+Reproduction for issue [#4132](https://github.com/web-infra-dev/rsbuild/issues/4132)
+
 To reproduce:
 
 - `pnpm install`
