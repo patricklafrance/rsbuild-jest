@@ -11,4 +11,8 @@ Error:
 
 `TypeError: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received 'http://localhost/main.js'`
 
+## Solution
+
+This issue was due to `testEnvironment: "jsdom"`. Removing it fix the issue.
+
 

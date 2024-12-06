@@ -3,7 +3,6 @@ import type { Config } from "jest";
 const config: Config = {
     testRegex: "/tests/*/.*\\.test\\.(ts|tsx)$",
     testPathIgnorePatterns: ["/node_modules/", "/dist/"],
-    testEnvironment: "jsdom",
     transform: {
         "^.+\\.(t|j)sx?$": [
             "@swc/jest",
